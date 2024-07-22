@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Fira sans', sans-serif !important;
+}
+.fira {
+  font-family: 'Fira sans', sans-serif !important;
+}
