@@ -1,43 +1,51 @@
 <template>
-    <DialogRoot>
-      <DialogTrigger class="w-32 mx-auto py-2 ml-2 shadow-sm rounded-md bg-indigo-600 text-white mt-4 flex items-center justify-center">
-        Click me
-      </DialogTrigger>
-      <DialogPortal>
-        <DialogOverlay class="fixed inset-0 w-full h-full bg-black opacity-40" />
-        <DialogContent class="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] px-4 w-full max-w-lg">
-          <div class="bg-white rounded-md shadow-lg px-4 py-6 sm:flex">
-            <div class="flex items-center justify-center flex-none w-12 h-12 mx-auto bg-red-100 rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-red-600" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
-              </svg>
-            </div>
-            <div class="mt-2 text-center sm:ml-4 sm:text-left">
-            <DialogTitle class="text-lg font-medium text-gray-800 mt-2 text-center sm:ml-4 sm:text-left">
-              An error occured!
-            </DialogTitle>
-            <DialogDescription class="mt-2 text-sm leading-relaxed text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc eget lorem dolor sed viverra ipsum nunc. venenatis.
-            </DialogDescription>
-            <div class="items-center gap-2 mt-3 text-sm sm:flex">
-              <DialogClose as-child>
-                <button class="w-full mt-2 p-2.5 flex-1 text-white bg-red-600 rounded-md outline-none ring-offset-2 ring-red-600 focus:ring-2">
-                  Delete
-                </button>
-              </DialogClose>
-              <DialogClose as-child>
-                <button aria-label="Close" class="w-full mt-2 p-2.5 flex-1 text-gray-800 rounded-md border ring-offset-2 ring-indigo-600 focus:ring-2">
-                  Cancel
-                </button>
-              </DialogClose>
-            </div>
-            </div>
-          </div>
-        </DialogContent>
-      </DialogPortal>
-    </DialogRoot>
-  </template>
-  
-  <script setup>
-  import { DialogClose, DialogContent, DialogDescription, DialogOverlay, DialogPortal, DialogRoot, DialogTitle, DialogTrigger } from 'radix-vue';
-  </script>
+  <TransitionRoot as="template" :show="showDialog">
+    <Dialog class="relative z-10" @close="open = false">
+      <TransitionChild as="template" enter="ease-out duration-300" enter-from="opacity-0" enter-to="opacity-100" leave="ease-in duration-200" leave-from="opacity-100" leave-to="opacity-0">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+      </TransitionChild>
+
+      <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
+        <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+          <TransitionChild as="template" enter="ease-out duration-300" enter-from="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95" enter-to="opacity-100 translate-y-0 sm:scale-100" leave="ease-in duration-200" leave-from="opacity-100 translate-y-0 sm:scale-100" leave-to="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
+            <DialogPanel class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+              <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                <div class="sm:flex sm:items-start">
+                  <div class="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
+                    <ExclamationTriangleIcon class="h-6 w-6 text-red-600" aria-hidden="true" />
+                  </div>
+                  <div class="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
+                    <DialogTitle as="h3" class="text-base font-semibold leading-6 text-gray-900">Suppression d'un élève</DialogTitle>
+                    <div class="mt-2">
+                      <p class="text-sm text-gray-500">Voulez-vous vraiment supprimer cet élève de la liste ? Cette action est définitive et ne pourra pas être annulée. Toutes les informations de cet élève, y compris ses notes et ses coordonnées, seront complètement effacées de notre système. Êtes-vous sûr de vouloir procéder à cette suppression ?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                <button type="button" class="inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto" @click="$emit('confirmed')">Supprimer</button>
+                <button type="button" class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto" @click="$emit('close')" ref="cancelButtonRef">Annuler</button>
+              </div>
+            </DialogPanel>
+          </TransitionChild>
+        </div>
+      </div>
+    </Dialog>
+  </TransitionRoot>
+</template>
+
+<script>
+import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
+import { ExclamationTriangleIcon } from '@heroicons/vue/24/outline'
+
+export default {
+  props: ['showDialog', ],
+  name: 'ModalDanger',
+  components: {Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot, ExclamationTriangleIcon},
+  data() {
+    return {
+      open: false
+    }
+  }
+}
+</script>

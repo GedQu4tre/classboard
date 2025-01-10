@@ -72,7 +72,7 @@
                 <Bars3Icon v-else class="size-6 my-auto text-indigo-800" />
               </button>
             </div>
-
+            
             <!-- Navigation Links -->
             <div :class="{'block': state, 'hidden': !state}" class="flex-1 items-center mt-8 md:mt-0 md:flex">
               <ul class="flex-1 justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
@@ -85,13 +85,13 @@
                 </li>
               </ul>
               <div class="items-center justify-end mt-6 space-y-6 md:flex md:mt-0">
-                <a
-                  href="javascript:void(0)"
+                <RouterLink tag="a"
+                  to="/login"
                   class="flex items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-gray-800 hover:bg-gray-700 active:bg-gray-900 rounded-full md:inline-flex"
                 >
                   Se connecter
                   <ChevronRightIcon class="size-4" />
-                </a>
+                </RouterLink>
               </div>
             </div>
           </div>

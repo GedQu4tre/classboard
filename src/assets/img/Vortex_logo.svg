@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   sodipodi:docname="Vortex_logo.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   id="svg5"
+   version="1.1"
+   viewBox="0 0 1366 768"
+   height="768"
+   width="1366"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#333333"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-global="true"
+     inkscape:zoom="0.3222357"
+     inkscape:cx="1924.0574"
+     inkscape:cy="3761.222"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient169808">
+      <stop
+         style="stop-color:#e059f7;stop-opacity:0.5"
+         offset="0"
+         id="stop169804" />
+      <stop
+         style="stop-color:#e75ff7;stop-opacity:1"
+         offset="1"
+         id="stop169806" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient167222">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.502"
+         offset="0"
+         id="stop167218" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop167220" />
+    </linearGradient>
+    <rect
+       x="162.51424"
+       y="263.3575"
+       width="1060.3792"
+       height="324.969"
+       id="rect165131" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient72114">
+      <stop
+         style="stop-color:#8a0bfc;stop-opacity:1"
+         offset="0"
+         id="stop72110" />
+      <stop
+         style="stop-color:#e75ff7;stop-opacity:1"
+         offset="1"
+         id="stop72112" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient72114"
+       id="linearGradient72116"
+       x1="461.01007"
+       y1="424.005"
+       x2="578.3399"
+       y2="423.47714"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.1189007,0,0,2.1189007,-732.79315,-503.92227)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient167222"
+       id="linearGradient167038"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.1189007,0,0,2.1189007,-700.90875,74.701383)"
+       x1="461.01007"
+       y1="424.005"
+       x2="578.3399"
+       y2="423.47714" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient169808"
+       id="linearGradient167554"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.8218566,0,0,6.8218566,-3491.4106,55.588216)"
+       x1="461.01007"
+       y1="424.005"
+       x2="578.3399"
+       y2="423.47714" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient167222"
+       id="linearGradient167581"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.7968747,0,0,6.7968747,-2163.5413,-89.846684)"
+       x1="461.01007"
+       y1="424.005"
+       x2="578.3399"
+       y2="423.47714" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient167222"
+       id="linearGradient923"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.7968747,0,0,6.7968747,-496.94046,-727.29824)"
+       x1="461.01007"
+       y1="424.005"
+       x2="578.3399"
+       y2="423.47714" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient167222"
+       id="linearGradient925"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.7968747,0,0,6.7968747,-496.94046,-727.29824)"
+       x1="461.01007"
+       y1="424.005"
+       x2="578.3399"
+       y2="423.47714" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient169808"
+       id="linearGradient27130"
+       x1="1646.5217"
+       y1="3677.2659"
+       x2="2487.4182"
+       y2="3677.2659"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient167222"
+       id="linearGradient27278"
+       gradientUnits="userSpaceOnUse"
+       x1="1646.5217"
+       y1="3677.2659"
+       x2="2487.4182"
+       y2="3677.2659"
+       gradientTransform="translate(13.669322,839.65799)" />
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect3253"
+       style="opacity:1;fill:url(#linearGradient72116);fill-opacity:1;stroke-width:53.5385;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 238.86374,353.07616 h 34.42585 v 82.88813 h -34.42585 z m 48.48963,-24.70743 h 34.42588 v 131.86862 h -34.42588 z m 128.52069,-18.33591 a 82.254795,83.209021 0 0 0 -82.25226,83.20824 82.254795,83.209021 0 0 0 82.25226,83.21238 82.254795,83.209021 0 0 0 82.25637,-83.21238 82.254795,83.209021 0 0 0 -82.25637,-83.20824 z m 0,35.93026 a 46.737654,47.279856 0 0 1 46.73999,47.27798 46.737654,47.279856 0 0 1 -46.73999,47.28209 46.737654,47.279856 0 0 1 -46.73582,-47.28209 46.737654,47.279856 0 0 1 46.73582,-47.27798 z"
+       inkscape:export-filename="/home/gedqu4tre/Images/GedPictures/vortex.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-size:173.764px;line-height:1.25;font-family:sans-serif;fill:#cccccc;stroke-width:3.25808"
+       x="533.77716"
+       y="453.44116"
+       id="text23107"
+       inkscape:export-filename="/home/gedqu4tre/Images/GedPictures/vortex.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan23105"
+         x="533.77716"
+         y="453.44116"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:173.764px;font-family:'SF UI Display';-inkscape-font-specification:'SF UI Display Ultra-Bold';fill:#cccccc;stroke-width:3.25808">Vortex<tspan
+   style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'SF UI Display';-inkscape-font-specification:'SF UI Display Light'"
+   id="tspan161703">.</tspan></tspan></text>
+    <path
+       id="rect3253-5"
+       style="fill:url(#linearGradient167038);fill-opacity:1;stroke-width:53.5385;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 270.74814,931.69981 h 34.42585 v 82.88819 h -34.42585 z m 48.48963,-24.70743 h 34.42588 V 1038.861 h -34.42588 z m 128.52072,-18.33591 a 82.254795,83.209021 0 0 0 -82.25229,83.20824 82.254795,83.209021 0 0 0 82.25229,83.21239 82.254795,83.209021 0 0 0 82.25636,-83.21239 82.254795,83.209021 0 0 0 -82.25636,-83.20824 z m 0,35.93026 a 46.737654,47.279856 0 0 1 46.73991,47.27798 46.737654,47.279856 0 0 1 -46.73991,47.28209 46.737654,47.279856 0 0 1 -46.73585,-47.28209 46.737654,47.279856 0 0 1 46.73585,-47.27798 z"
+       inkscape:export-filename="/home/gedqu4tre/Images/GedPictures/vortexMonochrome.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-size:173.764px;line-height:1.25;font-family:sans-serif;fill:#cccccc;stroke-width:3.25808"
+       x="561.95233"
+       y="1032.0648"
+       id="text23107-1"
+       inkscape:export-filename="/home/gedqu4tre/Images/GedPictures/vortexMonochrome.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan23105-1"
+         x="561.95233"
+         y="1032.0648"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:173.764px;font-family:'SF UI Display';-inkscape-font-specification:'SF UI Display Ultra-Bold';fill:#cccccc;stroke-width:3.25808">Vortex<tspan
+   style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'SF UI Display';-inkscape-font-specification:'SF UI Display Light'"
+   id="tspan161703-0">.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.6667px;line-height:1.25;font-family:sans-serif"
+       x="574.64294"
+       y="136.12192"
+       id="text147443"><tspan
+         sodipodi:role="line"
+         id="tspan147441"
+         x="574.64294"
+         y="136.12192">--</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text165129"
+       style="line-height:1.25;font-family:sans-serif;font-size:14.66666667px;white-space:pre;shape-inside:url(#rect165131)" />
+    <path
+       id="rect3253-0"
+       style="fill:url(#linearGradient167554);fill-opacity:1;stroke-width:172.368;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m -363.13566,2814.7173 h 110.83493 v 266.8603 h -110.83493 z m 156.11365,-79.5464 h 110.835022 v 424.5547 H -207.02201 Z m 413.77574,-59.033 A 264.82148,267.89364 0 0 0 -58.059578,2944.0292 264.82148,267.89364 0 0 0 206.75373,3211.9335 264.82148,267.89364 0 0 0 471.58028,2944.0292 264.82148,267.89364 0 0 0 206.75373,2676.1379 Z m 0,115.6785 a 150.47311,152.21875 0 0 1 150.48062,152.2128 150.47311,152.21875 0 0 1 -150.48062,152.226 150.47311,152.21875 0 0 1 -150.467212,-152.226 150.47311,152.21875 0 0 1 150.467212,-152.2128 z"
+       inkscape:export-filename="/home/gedqu4tre/Images/GedPictures/vortexIcon.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path167579"
+       style="fill:url(#linearGradient167581);fill-opacity:1;stroke-width:171.737;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="M 953.27775,2659.1786 H 1063.7068 V 2925.062 H 953.27775 Z m 155.54195,-79.2549 h 110.4291 v 422.9998 h -110.4291 z m 412.2606,-58.8171 a 263.85171,266.91262 0 0 0 -263.8437,266.9104 263.85171,266.91262 0 0 0 263.8437,266.9234 263.85171,266.91262 0 0 0 263.8567,-266.9234 263.85171,266.91262 0 0 0 -263.8567,-266.9104 z m 0,115.255 a 149.92208,151.66132 0 0 1 149.9293,151.6554 149.92208,151.66132 0 0 1 -149.9293,151.6684 149.92208,151.66132 0 0 1 -149.9163,-151.6684 149.92208,151.66132 0 0 1 149.9163,-151.6554 z"
+       inkscape:export-filename="/home/gedqu4tre/Images/GedPictures/vortexIconMonochrome.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:url(#linearGradient923);fill-opacity:1;stroke-width:171.737;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;opacity:0.12233807"
+       d="m 2775.4205,1942.4721 h 110.4291 v 422.9998 h -110.4291 z"
+       id="path895" />
+    <path
+       style="fill:url(#linearGradient925);fill-opacity:1;stroke-width:171.737;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;opacity:0.12233807"
+       d="m 2619.8786,2021.727 h 110.429 v 265.8834 h -110.429 z"
+       id="path167579-6" />
+    <path
+       id="path24689"
+       style="fill:none;stroke:url(#linearGradient27130);stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:1;fill-opacity:1"
+       d="m 1749.2846,3546.3707 v 263.5885 m -20,-263.5885 v 263.5885 m -20,-263.5885 v 263.5885 m -20,-263.5885 v 263.5885 m -20,-263.5885 v 263.5885 m -20,-263.5885 v 263.5885 M 1897.612,3465.766 v 422.9998 m -20,-422.9998 v 422.9998 m -20,-422.9998 v 422.9998 m -20,-422.9998 v 422.9998 m -20,-422.9998 v 422.9998 m 575.0508,-211.4999 a 174.90445,174.90445 0 0 1 -174.9045,174.9044 174.90445,174.90445 0 0 1 -174.9044,-174.9044 174.90445,174.90445 0 0 1 174.9044,-174.9045 174.90445,174.90445 0 0 1 174.9045,174.9045 z M 1797.612,3465.766 v 422.9998 m 618.4737,-211.4999 a 198.32742,198.32742 0 0 1 -198.3274,198.3274 198.32742,198.32742 0 0 1 -198.3274,-198.3274 198.32742,198.32742 0 0 1 198.3274,-198.3275 198.32742,198.32742 0 0 1 198.3274,198.3275 z m 24.4917,0 a 222.81914,222.81914 0 0 1 -222.8191,222.8191 222.81914,222.81914 0 0 1 -222.8191,-222.8191 222.81914,222.81914 0 0 1 222.8191,-222.8192 222.81914,222.81914 0 0 1 222.8191,222.8192 z m 21.4271,0 a 244.24623,244.24623 0 0 1 -244.2462,244.2462 244.24623,244.24623 0 0 1 -244.2462,-244.2462 244.24623,244.24623 0 0 1 244.2462,-244.2463 244.24623,244.24623 0 0 1 244.2462,244.2463 z m -244.2522,-266.897 a 266.89911,266.8926 0 0 0 -266.891,266.8902 266.89911,266.8926 0 0 0 266.891,266.9038 266.89911,266.8926 0 0 0 266.903,-266.9038 266.89911,266.8926 0 0 0 -266.903,-266.8902 z m 0,115.2473 a 151.65363,151.64994 0 0 1 151.6614,151.6429 151.65363,151.64994 0 0 1 -151.6614,151.6585 151.65363,151.64994 0 0 1 -151.6474,-151.6585 151.65363,151.64994 0 0 1 151.6474,-151.6429 z"
+       inkscape:export-filename="/home/gedqu4tre/Images/GedPictures/vortex_logo_trait_couleur.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path27276"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient27278);stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1762.9539,4386.0287 v 263.5885 m -20,-263.5885 v 263.5885 m -20,-263.5885 v 263.5885 m -20,-263.5885 v 263.5885 m -20,-263.5885 v 263.5885 m -20,-263.5885 v 263.5885 m 248.3274,-344.1932 v 422.9998 m -20,-422.9998 v 422.9998 m -20,-422.9998 v 422.9998 m -20,-422.9998 v 422.9998 m -20,-422.9998 v 422.9998 m 575.0508,-211.4999 a 174.90445,174.90445 0 0 1 -174.9045,174.9044 174.90445,174.90445 0 0 1 -174.9044,-174.9044 174.90445,174.90445 0 0 1 174.9044,-174.9045 174.90445,174.90445 0 0 1 174.9045,174.9045 z M 1811.2813,4305.424 v 422.9998 m 618.4737,-211.4999 a 198.32742,198.32742 0 0 1 -198.3274,198.3274 198.32742,198.32742 0 0 1 -198.3274,-198.3274 198.32742,198.32742 0 0 1 198.3274,-198.3275 198.32742,198.32742 0 0 1 198.3274,198.3275 z m 24.4917,0 a 222.81914,222.81914 0 0 1 -222.8191,222.8191 222.81914,222.81914 0 0 1 -222.8191,-222.8191 222.81914,222.81914 0 0 1 222.8191,-222.8192 222.81914,222.81914 0 0 1 222.8191,222.8192 z m 21.4271,0 a 244.24623,244.24623 0 0 1 -244.2462,244.2462 244.24623,244.24623 0 0 1 -244.2462,-244.2462 244.24623,244.24623 0 0 1 244.2462,-244.2463 244.24623,244.24623 0 0 1 244.2462,244.2463 z m -244.2522,-266.897 a 266.89911,266.8926 0 0 0 -266.891,266.8902 266.89911,266.8926 0 0 0 266.891,266.9038 266.89911,266.8926 0 0 0 266.903,-266.9038 266.89911,266.8926 0 0 0 -266.903,-266.8902 z m 0,115.2473 a 151.65363,151.64994 0 0 1 151.6614,151.6429 151.65363,151.64994 0 0 1 -151.6614,151.6585 151.65363,151.64994 0 0 1 -151.6474,-151.6585 151.65363,151.64994 0 0 1 151.6474,-151.6429 z"
+       inkscape:export-filename="/home/gedqu4tre/Images/GedPictures/vortex_logo_trait_gris.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

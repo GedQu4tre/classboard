@@ -1,144 +1,114 @@
 <template>
-  <main class="w-full flex justify-around">
-    <div
-      class="logoSide relative flex-1 hidden items-center justify-center bg-gray-900 h-screen lg:flex"
-    >
-      <div class="relative z-10 w-full max-w-md">
-        <h4 class="text-2xl flex gap-2 font-bold text-indigo-400">
-          <GlobeAltIcon class="size-7 my-auto text-indigo-400" /> Classboard
-        </h4>
+  <div class="flex h-screen flex-col justify-center items-center">
+        <div class="flex flex-col my-5 w-2/6 text-center">
+            <div class="flex justify-center mb-5">
+                <img src="../assets/img/vortexIcon.png" alt="Vortex" width="40">
+            </div>
+            <label class="text-2xl font-bold text-center text-black">Connexion</label>
+            <small class="text-gray-500">Entrer vos coordonnées pour vous connecter</small>
+        </div>
 
-        <div class="mt-16 space-y-3">
-          <h3 class="text-white text-3xl font-bold">
-            Rejoignez-nous en ouvrant votre compte
-          </h3>
-          <p class="text-gray-300">
-            Créez un compte et rejoingnez-nous dans cette grande avanture.
-            Accédez à notre plateforme pour une période d'essaie de 30 jours
-            avec des fonctionnalités limitées.
-          </p>
-        </div>
-      </div>
-    </div>
+        <form @submit="onSubmit" class="mt-3 lg:w-2/6 md:w-3/6">
+            <div class="grid gap-2">
+                <div class="grid gap-1">
+                <label class="sr-only" for="email">
+                    Nom d'utilisateur
+                </label>
+                <input
+                    v-model="username"
+                    id="email"
+                    placeholder="ex: gequ4tre"
+                    type="text"
+                    auto-correct="off"
+                    :disabled="isLoading"
 
-    <div
-      class="absolute inset-0 blur-xl h-[580px]"
-      :style="{
-        background: 'linear-gradient(143.6deg, rgba(192, 132, 252, 0) 20.79%, rgba(232, 121, 249, 0.20) 40.92%, rgba(204, 171, 238, 0) 70.35%)',
-      }"
-    ></div>
+                    class="bg-gray-100 p-3 rounded-md  ring-1 ring-gray-200"
+                />
+                </div>
 
-    <div class="flex-1 flex items-center justify-center h-screen">
-      <div
-        class="w-full max-w-md space-y-8 px-4 bg-white text-gray-600 sm:px-0"
-      >
-        <div class="">
-          <img
-            src="https://floatui.com/logo.svg"
-            width="150"
-            class="lg:hidden"
-          />
-          <div class="mt-5 space-y-2">
-            <h3 class="text-gray-800 text-2xl font-bold sm:text-3xl">
-              S'inscrire
-            </h3>
-            <p class="">
-              Alvez-vous déjà un compte ?
-              <a
-                href="javascript:void(0)"
-                class="font-medium text-indigo-800 hover:text-indigo-800"
-                >Se connecter</a
-              >
-            </p>
-          </div>
-        </div>
-        <div class="grid grid-cols-3 gap-x-3">
-          <button
-            class="flex items-center justify-center py-2.5 border rounded-lg hover:bg-gray-50 duration-150 active:bg-gray-100"
-          >
-            <!-- Comment: Google Icon SVG here -->
-            <img
-              src="https://raw.githubusercontent.com/sidiDev/remote-assets/7cd06bf1d8859c578c2efbfda2c68bd6bedc66d8/google-icon.svg"
-              alt="Google"
-              class="w-5 h-5"
-            />
-          </button>
-          <button
-            class="flex items-center justify-center py-2.5 border rounded-lg hover:bg-gray-50 duration-150 active:bg-gray-100"
-          >
-            <!-- Comment: Twitter Icon SVG here -->
-            <img
-              src="https://raw.githubusercontent.com/sidiDev/remote-assets/f7119b9bdd8c58864383802fb92c7fc3a25c0646/twitter-icon.svg"
-              alt="Twitter"
-              class="w-5 h-5"
-            />
-          </button>
-          <button
-            class="flex items-center justify-center py-2.5 border rounded-lg hover:bg-gray-50 duration-150 active:bg-gray-100"
-          >
-            <!-- Comment: GitHub Icon SVG here -->
-            <img
-              src="https://raw.githubusercontent.com/sidiDev/remote-assets/0d3b55a09c6bb8155ca19f43283dc6d88ff88bf5/github-icon.svg"
-              alt="Github"
-              class="w-5 h-5"
-            />
-          </button>
-        </div>
-        <div class="relative">
-          <span class="block w-full h-px bg-gray-300"></span>
-          <p
-            class="inline-block w-fit text-sm bg-white px-2 absolute -top-2 inset-x-0 mx-auto"
-          >
-            Ou continuer avec
-          </p>
-        </div>
-        <form onSubmit="event.preventDefault()" class="space-y-5">
-          <div>
-            <label class="font-medium">Nom</label>
-            <input
-              type="text"
-              required
-              class="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-800 shadow-sm rounded-lg"
-            />
-          </div>
-          <div>
-            <label class="font-medium">Adresse mail</label>
-            <input
-              type="email"
-              required
-              class="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-800 shadow-sm rounded-lg"
-            />
-          </div>
-          <div>
-            <label class="font-medium">Mot de passe</label>
-            <input
-              type="password"
-              required
-              class="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-800 shadow-sm rounded-lg"
-            />
-          </div>
-          <button
-            class="w-full px-4 py-2 text-white font-medium bg-indigo-800 hover:bg-indigo-500 active:bg-indigo-800 rounded-lg duration-150"
-          >
-            Créer un compte
-          </button>
+                <div class="grid gap-1">
+                <label class="sr-only" for="email">
+                    Mot de passe
+                </label>
+                <input
+                    v-model="password"
+                    id="password"
+                    placeholder="Mot de passe"
+                    type="password"
+                    auto-capitalize="none"
+                    auto-correct="off"
+                    :disabled="isLoading"
+
+                    class="bg-gray-100 p-3 rounded-md ring-1 ring-gray-200"
+                />
+                </div>
+
+
+                  <p class="mt-4 text-center text-sm text-red-500">{{ error }}</p>
+
+                <button
+                  @click.prevent="login"
+                  :disabled="isLoading"
+                  class="mt-4 bg-black p-3 rounded-md text-white hover:bg-gray-800 disabled:bg-gray-500 flex items-center justify-center space-x-2 w-full"
+                >
+                  <ArrowPathIcon class="size-6 text-white animate-spin" v-if="isLoading"  />
+                  <span v-if="!isLoading">Se connecter</span>
+                </button>
+
+                <label class="text-center font-light mt-4 px-10 text-gray-500">
+                    En cliquant sur se connecter, vous acceptez nos <u>termes</u> et <u>conditions d'utilisation.</u> 
+                </label>
+            </div>
         </form>
-      </div>
     </div>
-  </main>
 </template>
 
 <script>
-import { GlobeAltIcon } from "@heroicons/vue/20/solid";
+import {ArrowPathIcon, } from '@heroicons/vue/24/solid'
 export default {
-  components: { GlobeAltIcon },
-  name: "LoginView",
+  components: {ArrowPathIcon, },
   data() {
-    return {};
+    return {
+      isLoading: false,
+      username: '',
+      password: '',
+      error: null,
+    };
   },
+  methods: {
+    async login() {
+      try {
+        this.error = null;
+        this.isLoading = true;
+
+        await this.$store.dispatch('login', {
+          username: this.username,
+          password: this.password,
+        });
+        
+        this.isLoading = false;
+        this.$router.push('/admin'); // Redirige vers le tableau de bord après connexion
+
+      } catch (err) {
+        this.isLoading = false;
+        this.error = err.message;
+      }
+
+    },
+  },
+  watch: {
+    username() {
+      this.error = null;
+    },
+    password() {
+      this.error = null;
+    }
+  }
 };
 </script>
 
 <style scoped>
-
+input {
+  font-family: fira sans;
+}
 </style>

@@ -8,7 +8,7 @@
       </div>
       <div class="mt-8 items-center justify-between sm:flex">
         <div class="mt-4 sm:mt-0">
-          &copy; 2024 GedIndustries Tous droits reservés.
+          &copy; 2025 Vortex | GedIndustries Tous droits reservés.
         </div>
 
 
